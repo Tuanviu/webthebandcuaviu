@@ -1,0 +1,95 @@
+/* pc */
+@media (min-width: 1024px) {
+    
+}
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+/* table & mobile  */
+@media (max-width: 1023px) {
+
+    .contact-form .form-control {
+        padding: 15px;
+        font-size: 16px;
+    }
+    .contact-info {
+        line-height: 2;
+    }
+    .btn {
+        padding: 15px 16px
+    }
+    #footer .socials-list {
+        font-size: 32px;
+    }
+    #footer .socials-list a {
+        margin: 0 8px;
+    }
+    #footer .copyringht {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+}
+
+    
+/* Mobile */
+@media (max-width: 739px) {
+    #header .search-button {
+        display: none;
+    }
+    #header {
+    overflow: hidden;
+    }
+    #header .mobile-menu-btn { 
+        float: right;
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #header .menu-icon { 
+        color: #fff;
+        line-height: 46px;
+        font-size: 20px;
+        padding: 12px 24px;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .mobile-menu-btn:hover .menu-icon {
+        color: #000;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #nav .subnav {
+        position: initial;
+        background-color: #000;
+    }
+    #nav .subnav a {
+        padding: 5px 41px;
+        color: #fff;
+    }
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+    #content .member-img {
+        width: 60%;
+    }
+    .contact-form {
+        margin-top: 32px;
+    }
+    .s-mt-8 {
+        margin-top: 8px !important;
+    }
+
+
+
+}
